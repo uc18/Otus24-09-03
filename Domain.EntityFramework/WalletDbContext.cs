@@ -1,0 +1,9 @@
+﻿using FamilyWallet.Domain;
+using Microsoft.EntityFrameworkCore;
+
+namespace Domain.EntityFramework;
+
+public class WalletDbContext : DbContext
+{
+    public DbSet<User> Users { get; set; }
+}
