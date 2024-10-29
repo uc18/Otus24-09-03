@@ -3,7 +3,7 @@
 namespace FamilyWallet.Domain
 {
     [Table("Users")]
-    internal class WalletAndGroup
+    public class WalletAndGroup
     {
         [Column]
         public string WalletId { get; set; }

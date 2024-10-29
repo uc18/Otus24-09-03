@@ -6,4 +6,5 @@ namespace Domain.EntityFramework;
 public class WalletDbContext : DbContext
 {
     public DbSet<User> Users { get; set; }
+    public DbSet<WalletAndGroup> WalletsAndGroups { get; set; }
 }
