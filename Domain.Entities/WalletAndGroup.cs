@@ -2,16 +2,16 @@
 
 namespace FamilyWallet.Domain
 {
-    [Table("Users")]
+    [Table("WalletAndGroups")]
     public class WalletAndGroup
     {
         [Column]
-        public string WalletId { get; set; }
+        public int WalletId { get; set; }
 
         [Column]
-        public string GroupId { get; set; }
+        public int GroupId { get; set; }
 
         [Column]
-        public string PrivilagesId { get; set; }
+        public int PrivilagesId { get; set; }
     }
 }
